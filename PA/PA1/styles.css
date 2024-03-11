@@ -1,0 +1,97 @@
+@font-face {
+    font-family: MinecraftTen;
+    src: url(src/MinecraftTen.woff);
+}
+.intro h2{
+    font-family:MinecraftTen;
+    text-align:center;
+    font-size:32px;
+}
+.intro p{
+    text-align:center;
+    max-width: 492px;
+    margin:auto;
+}
+@media (max-width: 600px) {
+    .cards {
+      flex-basis: 100%; 
+      max-width: 100%;
+    }
+  }
+.cards{
+    display:flex;
+    gap:24px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    flex: 0 336px;
+}
+.card{
+    /* min-width: 250px; */
+    /* max-width: 336px; */
+    flex: 0 336px;
+
+
+}
+.tags{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 24px;
+
+}
+.tag{
+    background-color: #EDE5E2;
+    box-shadow: 2px 2px 0;
+    color: #3D3938;
+    display: inline-block;
+    padding: 0 4px;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+}
+.card-box{
+    border:16px solid;
+    padding:24px 17px;
+    height:calc(100% - 180px);
+}
+.box1{
+    border:16px solid #8F6448;
+}
+.box2{
+    border:16px solid #6345BD;
+}
+.box3{
+    border:16px solid #006CEF;
+}
+.navigation{
+    background-color: #171615;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    position: fixed;
+}
+.navigation ul{
+    list-style-type:none;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    max-width: 40%;
+    gap: 20px;
+}
+.navigation img{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 20%;
+}
+.navigation button{
+    color: #fff;
+    background-color: #5cb85c; 
+    padding: 10px 20px;
+    max-width: 40%;
+}
