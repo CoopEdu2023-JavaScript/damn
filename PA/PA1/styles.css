@@ -2,6 +2,9 @@
     font-family: MinecraftTen;
     src: url(src/MinecraftTen.woff);
 }
+.intro{
+    padding-top: 100px;
+}
 .intro h2{
     font-family:MinecraftTen;
     text-align:center;
@@ -22,16 +25,11 @@
     display:flex;
     gap:24px;
     justify-content: center;
-    /* flex-wrap: wrap; */
     width: 100%;
     flex: 0 336px;
 }
 .card{
-    /* min-width: 250px; */
-    /* max-width: 336px; */
     flex: 0 336px;
-
-
 }
 .tags{
     display: flex;
@@ -69,7 +67,7 @@
 .navigation{
     background-color: #171615;
     display: flex;
-    max-width: 100%;
+    width: 100%;
     justify-content: space-between;
     box-sizing: border-box;
     align-items: center;
